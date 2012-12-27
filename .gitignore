@@ -12,12 +12,24 @@
 *.la
 *.a
 
+# ./configure generated files
+Makefile
+config.h
+config.log
+config.status
+libtool
+src/.deps
+src/.libs
+src/Makefile
+stamp-h1
+
 # autoconf generated files
 m4/*
 autom4te.cache
 autoscan.log
 configure.scan
 Makefile.in
+src/Makefile.in
 aclocal.m4
 config.sub
 config.h.in
