@@ -10,7 +10,7 @@ LT_PREREQ([2.2])
 LT_INIT
 
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_SRCDIR([pgr/entry.c])
+AC_CONFIG_SRCDIR([pgr/entry.cpp])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.

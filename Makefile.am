@@ -4,7 +4,12 @@ ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = pgr demo
 
-nobase_include_HEADERS = pgr/export.h
+nobase_include_HEADERS = \
+  pgr/export.h \
+  pgr/Tags.h \
+  pgr/Property.h \
+  pgr/Node.h \
+  pgr/Environment.h
 
 
 

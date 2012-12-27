@@ -2,4 +2,4 @@
 
 lib_LTLIBRARIES = libpgr.la
 
-libpgr_la_SOURCES = entry.c common.h
+libpgr_la_SOURCES = entry.cpp common.h Tags.h Property.h Node.h Environment.h
