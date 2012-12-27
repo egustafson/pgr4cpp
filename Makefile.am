@@ -2,7 +2,11 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = src
+SUBDIRS = pgr demo
+
+nobase_include_HEADERS = pgr/export.h
+
+
 
 PKGDIR = /tmp/$(PACKAGE)-$(VERSION)
 fpm-deb: all

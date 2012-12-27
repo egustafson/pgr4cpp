@@ -2,15 +2,15 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([libpg], [0.1])
+AC_INIT([libpgr], [0.1])
 AC_CONFIG_AUX_DIR([config])
 AM_INIT_AUTOMAKE
 
 LT_PREREQ([2.2])
-LT_INIT([dlopen])
+LT_INIT
 
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_SRCDIR([src/entry.c])
+AC_CONFIG_SRCDIR([pgr/entry.c])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
@@ -31,6 +31,7 @@ AC_PROG_MAKE_SET
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 src/Makefile])
+                 pgr/Makefile
+                 demo/Makefile])
 
 AC_OUTPUT
